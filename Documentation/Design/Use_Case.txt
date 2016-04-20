@@ -1,0 +1,23 @@
+<Template for Use case>
+	     Name: 
+Brief Description: 
+           Actors:
+      Precodition:
+       Basic Flow:
+  Alternate Flows:
+  Exception Flows:
+  Post Conditions:
+
+             Name: audio track is linked to line in script
+Brief Description: an audio track is linked to line/s in the script
+           Actors: The user
+      Precodition: A script is already loaded into the program
+       Basic Flow: The user right clicks on the line in the script
+                 : From the drop down menu they click on add track                 :
+                 : Pop up appears to find track to combine
+                 : User selects file and it is combined with line/s
+  Alternate Flows: The user clicks cancel in pop up box
+                      :The pop up blox disappers
+  Exception Flows: The user picks a non audio track
+		      :An exception is thrown by the system saying invalid file
+  Post Conditions: A track is combined with the line/s in the script
